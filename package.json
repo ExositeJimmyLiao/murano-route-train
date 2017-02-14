@@ -4,7 +4,7 @@
   "description": "Test for training",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test.js"
+    "test": "./node_modules/.bin/mocha test.js -w"
   },
   "keywords": [
     "QA"
