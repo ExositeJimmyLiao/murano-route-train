@@ -92,6 +92,7 @@ describe('Murano route', function() {
   it('should response { \"key\": \"value\" } while calling GET /keystore/get/{key}', (done) => {
     fetch(`${domain}/keystore/get/${key}`)
       .then((response) => {
+        response.headers.get('dqa-1077').should.equal('https://i.exosite.com/jira/browse/DQA-1077');
         return response.text();
       })
       .then((body) => {
