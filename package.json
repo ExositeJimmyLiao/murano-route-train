@@ -1,0 +1,21 @@
+{
+  "name": "murano-route-train",
+  "version": "1.0.0",
+  "description": "Test for training",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test.js"
+  },
+  "keywords": [
+    "QA"
+  ],
+  "author": "Jimmy Liao",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
